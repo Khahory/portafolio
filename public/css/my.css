@@ -1,0 +1,5 @@
+.has-bg-img
+{
+    background: url('../img/fondo.jpg')center center;
+    background-size:cover;
+}
