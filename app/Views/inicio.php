@@ -16,6 +16,7 @@
 </div>
 
 <script>
+    new WOW().init();
     const app = new Vue({
         el: '#app',
         data: {
