@@ -1,428 +1,407 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="description" content="Angel Maria Perez - Desarrollador Web Profesional" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link type="image/x-icon" href="public/image/codeico.jpg" rel="icon" />
-	<link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
-	<link rel="stylesheet" href="public/css/style.css" />
-	<title>Khahory - Desarrollador Web</title>
-</head>
-<body>
-	<div class="loader">
-		<div class="loader__container">
-			<div class="loader__hexagon"></div>
-			<p class="loader__message">Cargando portafolio...</p>
-		</div>
-	</div>
-
-	<div class="blanketBody"></div>
-
-	<div class="control-actions">
-		<span class="control-actions__menu"><i class="fas fa-hamburger"></i></span>
-	</div>
-
-	<div class="container-master">
-		<!-- Éste es el menú para dispositivos móviles y tablet's -->
-		<div class="myself__container__menu">
-			<div class="myself__data">
-				<div class="myself__data__container-avatar">
-					<div class="myself__data__avatar"></div>
-				</div>
-				<div class="myself__data__info">
-					<h4 class="myself__data__info__fullname">Angel Maria Perez</h4>
-					<p class="myself__data__info__role">Desarrollador Full Stack</p>
-				</div>
-			</div>
-
-			<ul class="myself__menu">
-				<a href="#home" class="myself__menu__link myself__menu__link--active">
-					<li class="myself__menu__item">
-						<span class="fa-stack fa-2x">
-							<i class="fas fa-square fa-stack-2x"></i>
-							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
-						</span>git
-						Inicio
-					</li>
-				</a>
-				<a href="#welcome" class="myself__menu__link">
-					<li class="myself__menu__item">
-						<span class="fa-stack fa-2x">
-							<i class="fas fa-square fa-stack-2x"></i>
-							<i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
-						</span>
-						Acerca de Mi
-					</li>
-				</a>
-				<a href="#portfolio" class="myself__menu__link">
-					<li class="myself__menu__item">
-						<span class="fa-stack fa-2x">
-							<i class="fas fa-square fa-stack-2x"></i>
-							<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
-						</span>
-						Mi Portafolio
-					</li>
-				</a>
-				<a href="#contact" class="myself__menu__link">
-					<li class="myself__menu__item">
-						<span class="fa-stack fa-2x">
-							<i class="fas fa-square fa-stack-2x"></i>
-							<i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
-						</span>
-						Contáctame
-					</li>
-				</a>
-			</ul>
-		</div>
-
-		<!-- Esta es la sección principal, donde se muestra la información básica -->
-		<section class="container__myself">
-			<span class="myself__menu__action"><i class="fas fa-hamburger"></i></span>
-
-			<article class="myself">
-				<div class="myself__profile">
-					<div class="myself__container__avatar">
-						<div class="myself__avatar"></div>
-					</div>
-					<h1 class="myself__fullname">Angel Maria Perez De los Santos</h1>
-					<p class="myself__description">Tecnólogo de Software - Desarrollador Full Stack</p>
-				</div>
-				<div class="myself__footer">
-					<div class="myself__footer__by">
-						<p>Hecho con <i class="fa fa-heart" style="color:#e75353;"></i></p>
-						<p>© 2021</p>
-					</div>
-					<div class="myself__footer__social">
-                        <a class="myself__footer__link" href="https://www.linkedin.com/in/angel-perez-207009172/" target="_blank">
-							<i class="fab fa-linkedin"></i>
-						</a>
-                        <a class="myself__footer__link" href="https://github.com/Khahory" target="_blank">
-							<i class="fab fa-github-square"></i>
-						</a>
-					</div>
-				</div>
-			</article>
-		</section>
-
-		<!-- Éste contenedor muestra los artículos que actualmente están en la página -->
-		<section class="container__articles">
-			<nav class="menu">
-				<ul class="menu-list">
-					<a href="#welcome" class="menu-list__link menu-list__link--active">
-						<li class="menu-list__item">Acerca de Mi</li>
-					</a>
-					<a href="#portfolio" class="menu-list__link">
-						<li class="menu-list__item">Mi Portafolio</li>
-					</a>
-					<a href="#contact" class="menu-list__link">
-						<li class="menu-list__item">Contáctame</li>
-					</a>
-				</ul>
-			</nav>
-
-			<article class="welcome article--show" id="welcome">
-				<h2 class="welcome__title">¡Bienvenido!</h2>
-				<p class="welcome__description">Mi nombre es <strong>Angel</strong>, soy desarrollador y vivo en la ciudad de Santo Domingo. Mi lenguaje de programación favorito es <strong>javascript</strong>, con él he aprendido muchas cosas y con él desarrollo actualmente. Mi objetivo es usarlo como herramienta para crear soluciones tecnológicas a la medida de cualquier necesidad. <br /><br /> Estoy convencido de que el trabajo en equipo es la mejor forma de avanzar en cualquier trabajo o proyecto. <br /><br /></p>
-
-				<h2 class="welcome__title">Stack de Desarrollo</h2>
-				<p class="welcome__description">A lo largo de los años en los que me he desempeñado como desarrollador he trabajado con diferentes tecnologías. A continuación quiero mostrarte mi stack de desarrollo actual y las herramientas con las que he trabajado.</p>
-
-				<div class="welcome__container-stack">
-					<!-- Frontend -->
-					<div class="welcome__stack">
-						<h4 class="welcome__stack__title">Frontend</h4>
-						<div class="welcome__stack__tools">
-							<div class="welcome__stack__tool">
-								<i class="fab fa-html5" style="color:#f16529;"></i>
-							</div>
-							<div class="welcome__stack__tool">
-								<i class="fab fa-css3-alt" style="color:#0170ba;"></i>
-							</div>
-							<div class="welcome__stack__tool">
-								<i class="fab fa-js" style="color:#ffe629; background-color: #2d2d2d;"></i>
-							</div>
-							<div class="welcome__stack__tool">
-								<i class="fab fa-bootstrap" style="color:#563d7c;"></i>
-							</div>
-                            <div class="welcome__stack__tool">
-                                <img src="https://buefy.org/static/img/buefy.1d65c18.png" alt="buefy" />
-							</div>
-							<div class="welcome__stack__tool">
-								<i class="fab fa-vuejs" style="color:#24ae00;"></i>
-							</div>
-						</div>
-					</div>
-					<!-- Backend -->
-					<div class="welcome__stack">
-						<h4 class="welcome__stack__title">Backend</h4>
-						<div class="welcome__stack__tools">
-                            <div class="welcome__stack__tool">
-								<i class="fab fa-node" style="color:#43853d;"></i>
-							</div>
-                            <div class="welcome__stack__tool">
-                                <i class="fab fa-php" style="color:#e38e00;"></i>
-							</div>
-						</div>
-					</div>
-					<!-- Herramientas de Trabajo -->
-					<div class="welcome__stack">
-						<h4 class="welcome__stack__title">Gestión de proyectos</h4>
-						<div class="welcome__stack__tools">
-							<div class="welcome__stack__tool">
-								<i class="fab fa-git-alt" style="color:#f64e27;"></i>
-							</div>
-							<div class="welcome__stack__tool">
-                                <img src="https://fossil-scm.org/home/doc/trunk/www/fossil3.gif" alt="fossil" />
-							</div>
-						</div>
-					</div>
-					<!-- Databases -->
-                    <div class="welcome__stack">
-						<h4 class="welcome__stack__title">Bases de datos</h4>
-						<div class="welcome__stack__tools">
-                            <div class="welcome__stack__tool">
-								<img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
-							</div>
-                            <div class="welcome__stack__tool">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oracle_Corporation_logo.svg/1200px-Oracle_Corporation_logo.svg.png" alt="oracle" />
-                            </div>
-                            <div class="welcome__stack__tool">
-                                <img src="https://www.programandoamedianoche.com/wp-content/uploads/2019/06/sql-server.png" alt="sqlserver" />
-                            </div>
-
-						</div>
-					</div>
-					<!-- Frameworks -->
-					<div class="welcome__stack">
-						<h4 class="welcome__stack__title">Frameworks</h4>
-						<div class="welcome__stack__tools">
-							<div class="welcome__stack__tool">
-								<img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="" />
-							</div>
-							<div class="welcome__stack__tool">
-								<img src="https://juanalbertogt.files.wordpress.com/2013/03/4zeimmsdyc58esq34wbi.png" alt="" />
-							</div>
-							<div class="welcome__stack__tool">
-								<img src="https://download.seaicons.com/icons/sicons/basic-round-social/512/jquery-icon.png" alt="" />
-							</div>
-						</div>
-					</div>
-					<!-- Otros lenguajes -->
-					<div class="welcome__stack">
-						<h4 class="welcome__stack__title">Otros</h4>
-						<div class="welcome__stack__tools">
-							<div class="welcome__stack__tool">
-								<i class="fab fa-java" style="color:#c81729;"></i>
-							</div>
-							<div class="welcome__stack__tool">
-								<img src="https://img2.freepng.es/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-5b89919299aab1.1956912415357423546294.jpg" alt="" />
-							</div>
-							<div class="welcome__stack__tool">
-								<i class="fab fa-android" style="color:#58ff33;"></i>
-							</div>
-							<div class="welcome__stack__tool">
-								<i class="fab fa-python" style="color:#cab926;"></i>
-							</div>
-						</div>
-					</div>
-					<br><br>
-				</div>
-			</article>
-
-			<article class="portfolio" id="portfolio">
-				<h2 class="portfolio__title">Portafolio</h2>
-				<p class="portfolio__description">En esta sección encontrarás los proyectos en los que he trabajado, también encontrarás algunas pruebas e inventos. Todo lo que sé hacer con las herramientas que uso.</p>
-				<blockquote class="portfolio__blockquote">Puedes encontrar más información sobre mis proyectos en mi perfil de <strong>Github</strong>.</blockquote>
-
-				<section class="portfolio__works">
-					<!-- MyItla -->
-					<article class="portfolio__works__item">
-						<div class="portfolio__works__item__header">
-							<img src="public/image/myitla.webp" class="portfolio__works__item__header__logo" alt="">
-							<h3 class="portfolio__works__item__header__title">
-								My ITLA
-								<a href="https://play.google.com/store/apps/details?id=myitla.germaaf.dominio.myitlaaa&hl=es_DO" target="_blank" class="portfolio__works__item__header__title__link">
-									<i class="fa fa-external-link" style="color:#6cef4e;"></i>
-								</a>
-							</h3>
-						</div>
-						<p class="portfolio__works__item__resume">Con My ITLA puedes visualizar los horarios y también ver por donde viene el autobús de la institución. <strong>Instituto Tecnológico de Las Américas (ITLA)</strong></p>
-						<div class="portfolio__works__tools">
-							<div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
-							<div>
-								<i class="fab fa-java fa-lg" style="color:#c81729;"></i>
-								<i class="fab fa-android fa-lg" style="color:#58ff33;"></i>
-							</div>
-						</div>
-					</article>
-
-					<!-- Argos -->
-					<article class="portfolio__works__item">
-						<div class="portfolio__works__item__header">
-							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR9F_t6z6kaYSAJwUqe9VRtr1Uyj6XJnKWUUYkFnwAKRVPy2EznTMIFMOC84L-bk-OMcM&usqp=CAU" class="portfolio__works__item__header__logo" alt="">
-							<h3 class="portfolio__works__item__header__title">
-								Argos One
-								<a href="https://argos.com.do/" target="_blank" class="portfolio__works__item__header__title__link">
-									<i class="fa fa-external-link" style="color:#6cef4e;"></i>
-								</a>
-							</h3>
-						</div>
-						<p class="portfolio__works__item__resume">
-							Aplicación que usa Argos Dominicana para gestionar todos los procesos internos de la empresa, gestión administrativa, correos, automatización de procesos, reportes y muchas otras cosas más.
-							<strong>Cementos Argos S.A.</strong>
-						</p>
-						<div class="portfolio__works__tools">
-							<div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
-							<div class="welcome__stack__tools">
-								<div class="welcome__stack__tool">
-									<i class="fab fa-vuejs" style="color:#24ae00;"></i>
-								</div>
-								<div class="welcome__stack__tool">
-									<img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
-								</div>
-								<div class="welcome__stack__tool">
-									<img src="https://buefy.org/static/img/buefy.1d65c18.png" alt="buefy" />
-								</div>
-								<div class="welcome__stack__tool">
-									<img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="" />
-								</div>
-								<div class="welcome__stack__tool">
-									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oracle_Corporation_logo.svg/1200px-Oracle_Corporation_logo.svg.png" alt="oracle" />
-								</div>
-							</div>
-						</div>
-					</article>
-
-					<!-- Regional de Salud -->
-					<article class="portfolio__works__item">
-						<div class="portfolio__works__item__header">
-							<img src="https://sns.gob.do/wp-content/uploads/2020/04/logosrs_cibaocentral-1.png" class="portfolio__works__item__header__logo" alt="">
-							<h3 class="portfolio__works__item__header__title">
-								SRS VIII
-								<a href="https://srsviii.gob.do/dependencias/la-vega/" target="_blank" class="portfolio__works__item__header__title__link">
-									<i class="fa fa-external-link" style="color:#6cef4e;"></i>
-								</a>
-							</h3>
-						</div>
-						<p class="portfolio__works__item__resume">
-							Aplicación para el manejo interno de la Regional de Salud de La Vega, contando con módulos administrativos y automatización de procesos.
-							<strong>Servicio Regional de Salud VIII</strong>
-						</p>
-						<div class="portfolio__works__tools">
-							<div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
-							<div class="welcome__stack__tools">
-								<div class="welcome__stack__tool">
-									<i class="fab fa-vuejs" style="color:#24ae00;"></i>
-								</div>
-								<div class="welcome__stack__tool">
-									<img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
-								</div>
-								<div class="welcome__stack__tool">
-									<img src="https://buefy.org/static/img/buefy.1d65c18.png" alt="buefy" />
-								</div>
-								<div class="welcome__stack__tool">
-									<img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="" />
-								</div>
-							</div>
-						</div>
-					</article>
-
-					<!-- TemmPool -->
-					<article class="portfolio__works__item">
-						<div class="portfolio__works__item__header">
-							<img src="https://play-lh.googleusercontent.com/qXevVS05roCniIvCu4jnudLZW54zoRzJAk5ISzPrjz7pTBqSc-Ujzs7qn3K4aSrWiQ=s180-rw" class="portfolio__works__item__header__logo" alt="">
-							<h3 class="portfolio__works__item__header__title">
-								TemPool
-								<a href="https://play.google.com/store/apps/details?id=itla.temperamento.dominio.temepramento&hl=es&gl=US" target="_blank" class="portfolio__works__item__header__title__link">
-									<i class="fa fa-external-link" style="color:#6cef4e;"></i>
-								</a>
-							</h3>
-						</div>
-						<p class="portfolio__works__item__resume">
-							La aplicación te permite dar a conocer tus temperamentos por las respuestas que elijas dentro del test. Mediante unos calculos pues la aplicación te mostrara tu temperamento dominante y el temperamento natural.
-						</p>
-						<div class="portfolio__works__tools">
-							<div class="portfolio__works__tools__role">Frontend</div>
-							<div>
-								<i class="fab fa-java fa-lg" style="color:#c81729;"></i>
-								<i class="fab fa-android fa-lg" style="color:#58ff33;"></i>
-							</div>
-						</div>
-					</article>
-
-					<!-- TemmPool -->
-					<article class="portfolio__works__item">
-						<div class="portfolio__works__item__header">
-							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" class="portfolio__works__item__header__logo" alt="">
-							<h3 class="portfolio__works__item__header__title">
-								Test App en React
-								<a href="https://mmglaparareact.web.app/exersice" target="_blank" class="portfolio__works__item__header__title__link">
-									<i class="fa fa-external-link" style="color:#6cef4e;"></i>
-								</a>
-							</h3>
-						</div>
-						<p class="portfolio__works__item__resume">
-							Aplicacion creada por un curso realizado con la libreria de React
-						</p>
-						<div class="portfolio__works__tools">
-							<div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
-							<div class="welcome__stack__tools">
-								<div class="welcome__stack__tool">
-									<i class="fab fa-node" style="color:#43853d;"></i>
-								</div>
-								<div class="welcome__stack__tool">
-									<i class="fab fa-react" style="color:#42a5db;"></i>
-								</div>
-								<div class="welcome__stack__tool">
-									<img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
-								</div>
-							</div>
-						</div>
-					</article>
-
-
-					<!-- Pronto -->
-					<article class="portfolio__works__item" id="busser">
-						<div class="portfolio__works__item__header">
-							<h3 class="portfolio__works__item__header__title">
-								Vienen mas...
-							</h3>
-						</div>
-					</article>
-				</section>
-			</article>
-
-			<article class="contact" id="contact">
-				<h2 class="contact__title">¿Necesitas soluciones tecnológicas para ti o tu empresa?</h2>
-				<p class="contact__description">Has llegado al lugar indicado. Actualmente hago parte de un excelente grupo de trabajo, dispuesto a solucionar tu problema usando las mejores técnicas de análisis y desarrollo de software. <br> <br> Puedes contactarme para tomarnos un café y así hablar de tu idea. Podrás encontrar mis redes sociales en el panel principal o si deseas, puedes escribirme a mi correo <a class="welcome__community" href="mailto:20164247@itla.edu.do" target="_blank">20164247@itla.edu.do</a>.</p>
-
-				<p class="contact__description">Puedes seguirnos en nuestras redes sociales ¡Te esperamos!</p>
-
-				<div class="contact__social">
-                    <a class="contact__social__link" href="https://www.reddit.com/user/Khahor" target="_blank">
-                        <i class="fab fa-reddit" style="color: #2d2d2d;"></i>
-                    </a>
-                    <a class="contact__social__link" href="https://github.com/Khahory" target="_blank">
-                        <i class="fab fa-github-square" style="color: #2d2d2d;"></i>
-                    </a>
-                    <a class="contact__social__link" href="https://www.instagram.com/kh.ahory/" target="_blank">
-						<i class="fab fa-instagram" style="color: palevioletred;"></i>
-					</a>
-                    <a class="contact__social__link" href="https://web.facebook.com/angel.mariaperez.9" target="_blank">
-						<i class="fab fa-facebook-square" style="color: #4267b2;"></i>
-					</a>
-                    <a class="contact__social__link" href="https://www.twitch.tv/khahory" target="_blank">
-						<i class="fab fa-twitch" style="color: #7618b0;"></i>
-					</a>
-				</div>
-			</article>
-		</section>
-	</div>
-
-	<script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
-	<script src="public/js/main.js"></script>
-</body>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Angel Maria Perez - Desarrollador Web Profesional" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link type="image/x-icon" href="public/image/codeico.jpg" rel="icon" />
+      <link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+      <link rel="stylesheet" href="public/css/style.css" />
+      <title>Khahory - Desarrollador Web</title>
+   </head>
+   <body>
+      <div class="loader">
+         <div class="loader__container">
+            <div class="loader__hexagon"></div>
+            <p class="loader__message">Cargando portafolio...</p>
+         </div>
+      </div>
+      <div class="blanketBody"></div>
+      <div class="control-actions">
+         <span class="control-actions__menu"><i class="fas fa-hamburger"></i></span>
+      </div>
+      <div class="container-master">
+         <!-- Éste es el menú para dispositivos móviles y tablet's -->
+         <div class="myself__container__menu">
+            <div class="myself__data">
+               <div class="myself__data__container-avatar">
+                  <div class="myself__data__avatar"></div>
+               </div>
+               <div class="myself__data__info">
+                  <h4 class="myself__data__info__fullname">Angel Maria Perez</h4>
+                  <p class="myself__data__info__role">Desarrollador Full Stack</p>
+               </div>
+            </div>
+            <ul class="myself__menu">
+               <a href="#home" class="myself__menu__link myself__menu__link--active">
+                  <li class="myself__menu__item">
+                     <span class="fa-stack fa-2x">
+                     <i class="fas fa-square fa-stack-2x"></i>
+                     <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                     </span>git
+                     Inicio
+                  </li>
+               </a>
+               <a href="#welcome" class="myself__menu__link">
+                  <li class="myself__menu__item">
+                     <span class="fa-stack fa-2x">
+                     <i class="fas fa-square fa-stack-2x"></i>
+                     <i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+                     </span>
+                     Acerca de Mi
+                  </li>
+               </a>
+               <a href="#portfolio" class="myself__menu__link">
+                  <li class="myself__menu__item">
+                     <span class="fa-stack fa-2x">
+                     <i class="fas fa-square fa-stack-2x"></i>
+                     <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+                     </span>
+                     Mi Portafolio
+                  </li>
+               </a>
+               <a href="#contact" class="myself__menu__link">
+                  <li class="myself__menu__item">
+                     <span class="fa-stack fa-2x">
+                     <i class="fas fa-square fa-stack-2x"></i>
+                     <i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
+                     </span>
+                     Contáctame
+                  </li>
+               </a>
+            </ul>
+         </div>
+         <!-- Esta es la sección principal, donde se muestra la información básica -->
+         <section class="container__myself">
+            <span class="myself__menu__action"><i class="fas fa-hamburger"></i></span>
+            <article class="myself">
+               <div class="myself__profile">
+                  <div class="myself__container__avatar">
+                     <div class="myself__avatar"></div>
+                  </div>
+                  <h1 class="myself__fullname">Angel Maria Perez De los Santos</h1>
+                  <p class="myself__description">Tecnólogo de Software - Desarrollador Full Stack</p>
+               </div>
+               <div class="myself__footer">
+                  <div class="myself__footer__by">
+                     <p>Hecho con <i class="fa fa-heart" style="color:#e75353;"></i></p>
+                     <p>© 2021</p>
+                  </div>
+                  <div class="myself__footer__social">
+                     <a class="myself__footer__link" href="https://www.linkedin.com/in/angel-perez-207009172/" target="_blank">
+                     <i class="fab fa-linkedin"></i>
+                     </a>
+                     <a class="myself__footer__link" href="https://github.com/Khahory" target="_blank">
+                     <i class="fab fa-github-square"></i>
+                     </a>
+                  </div>
+               </div>
+            </article>
+         </section>
+         <!-- Éste contenedor muestra los artículos que actualmente están en la página -->
+         <section class="container__articles">
+            <nav class="menu">
+               <ul class="menu-list">
+                  <a href="#welcome" class="menu-list__link menu-list__link--active">
+                     <li class="menu-list__item">Acerca de Mi</li>
+                  </a>
+                  <a href="#portfolio" class="menu-list__link">
+                     <li class="menu-list__item">Mi Portafolio</li>
+                  </a>
+                  <a href="#contact" class="menu-list__link">
+                     <li class="menu-list__item">Contáctame</li>
+                  </a>
+               </ul>
+            </nav>
+            <article class="welcome article--show" id="welcome">
+               <h2 class="welcome__title">¡Bienvenido!</h2>
+               <p class="welcome__description">Mi nombre es <strong>Angel</strong>, soy desarrollador y vivo en la ciudad de Santo Domingo. Mi lenguaje de programación favorito es <strong>javascript</strong>, con él he aprendido muchas cosas y con él desarrollo actualmente. Mi objetivo es usarlo como herramienta para crear soluciones tecnológicas a la medida de cualquier necesidad. <br /><br /> Estoy convencido de que el trabajo en equipo es la mejor forma de avanzar en cualquier trabajo o proyecto. <br /><br /></p>
+               <h2 class="welcome__title">Stack de Desarrollo</h2>
+               <p class="welcome__description">A lo largo de los años en los que me he desempeñado como desarrollador he trabajado con diferentes tecnologías. A continuación quiero mostrarte mi stack de desarrollo actual y las herramientas con las que he trabajado.</p>
+               <div class="welcome__container-stack">
+                  <!-- Frontend -->
+                  <div class="welcome__stack">
+                     <h4 class="welcome__stack__title">Frontend</h4>
+                     <div class="welcome__stack__tools">
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-html5" style="color:#f16529;"></i>
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-css3-alt" style="color:#0170ba;"></i>
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-js" style="color:#ffe629; background-color: #2d2d2d;"></i>
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-bootstrap" style="color:#563d7c;"></i>
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <img src="https://buefy.org/static/img/buefy.1d65c18.png" alt="buefy" />
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-vuejs" style="color:#24ae00;"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Backend -->
+                  <div class="welcome__stack">
+                     <h4 class="welcome__stack__title">Backend</h4>
+                     <div class="welcome__stack__tools">
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-node" style="color:#43853d;"></i>
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-php" style="color:#e38e00;"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Herramientas de Trabajo -->
+                  <div class="welcome__stack">
+                     <h4 class="welcome__stack__title">Gestión de proyectos</h4>
+                     <div class="welcome__stack__tools">
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-git-alt" style="color:#f64e27;"></i>
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <img src="https://fossil-scm.org/home/doc/trunk/www/fossil3.gif" alt="fossil" />
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Databases -->
+                  <div class="welcome__stack">
+                     <h4 class="welcome__stack__title">Bases de datos</h4>
+                     <div class="welcome__stack__tools">
+                        <div class="welcome__stack__tool">
+                           <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oracle_Corporation_logo.svg/1200px-Oracle_Corporation_logo.svg.png" alt="oracle" />
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <img src="https://www.programandoamedianoche.com/wp-content/uploads/2019/06/sql-server.png" alt="sqlserver" />
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Frameworks -->
+                  <div class="welcome__stack">
+                     <h4 class="welcome__stack__title">Frameworks</h4>
+                     <div class="welcome__stack__tools">
+                        <div class="welcome__stack__tool">
+                           <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="" />
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <img src="https://juanalbertogt.files.wordpress.com/2013/03/4zeimmsdyc58esq34wbi.png" alt="" />
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <img src="https://download.seaicons.com/icons/sicons/basic-round-social/512/jquery-icon.png" alt="" />
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Otros lenguajes -->
+                  <div class="welcome__stack">
+                     <h4 class="welcome__stack__title">Otros</h4>
+                     <div class="welcome__stack__tools">
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-java" style="color:#c81729;"></i>
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <img src="https://img2.freepng.es/20180831/iua/kisspng-c-programming-language-logo-microsoft-visual-stud-atlas-portfolio-5b89919299aab1.1956912415357423546294.jpg" alt="" />
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-android" style="color:#58ff33;"></i>
+                        </div>
+                        <div class="welcome__stack__tool">
+                           <i class="fab fa-python" style="color:#cab926;"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <br><br>
+               </div>
+            </article>
+            <article class="portfolio" id="portfolio">
+               <h2 class="portfolio__title">Portafolio</h2>
+               <p class="portfolio__description">En esta sección encontrarás los proyectos en los que he trabajado, también encontrarás algunas pruebas e inventos. Todo lo que sé hacer con las herramientas que uso.</p>
+               <blockquote class="portfolio__blockquote">Puedes encontrar más información sobre mis proyectos en mi perfil de <strong>Github</strong>.</blockquote>
+               <section class="portfolio__works">
+                  <!-- MyItla -->
+                  <article class="portfolio__works__item">
+                     <div class="portfolio__works__item__header">
+                        <img src="public/image/myitla.webp" class="portfolio__works__item__header__logo" alt="">
+                        <h3 class="portfolio__works__item__header__title">
+                           My ITLA
+                           <a href="https://play.google.com/store/apps/details?id=myitla.germaaf.dominio.myitlaaa&hl=es_DO" target="_blank" class="portfolio__works__item__header__title__link">
+                           <i class="fa fa-external-link" style="color:#6cef4e;"></i>
+                           </a>
+                        </h3>
+                     </div>
+                     <p class="portfolio__works__item__resume">Con My ITLA puedes visualizar los horarios y también ver por donde viene el autobús de la institución. <strong>Instituto Tecnológico de Las Américas (ITLA)</strong></p>
+                     <div class="portfolio__works__tools">
+                        <div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
+                        <div>
+                           <i class="fab fa-java fa-lg" style="color:#c81729;"></i>
+                           <i class="fab fa-android fa-lg" style="color:#58ff33;"></i>
+                        </div>
+                     </div>
+                  </article>
+                  <!-- Argos -->
+                  <article class="portfolio__works__item">
+                     <div class="portfolio__works__item__header">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR9F_t6z6kaYSAJwUqe9VRtr1Uyj6XJnKWUUYkFnwAKRVPy2EznTMIFMOC84L-bk-OMcM&usqp=CAU" class="portfolio__works__item__header__logo" alt="">
+                        <h3 class="portfolio__works__item__header__title">
+                           Argos One
+                           <a href="https://argos.com.do/" target="_blank" class="portfolio__works__item__header__title__link">
+                           <i class="fa fa-external-link" style="color:#6cef4e;"></i>
+                           </a>
+                        </h3>
+                     </div>
+                     <p class="portfolio__works__item__resume">
+                        Aplicación que usa Argos Dominicana para gestionar todos los procesos internos de la empresa, gestión administrativa, correos, automatización de procesos, reportes y muchas otras cosas más.
+                        <strong>Cementos Argos S.A.</strong>
+                     </p>
+                     <div class="portfolio__works__tools">
+                        <div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
+                        <div class="welcome__stack__tools">
+                           <div class="welcome__stack__tool">
+                              <i class="fab fa-vuejs" style="color:#24ae00;"></i>
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <img src="https://buefy.org/static/img/buefy.1d65c18.png" alt="buefy" />
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="" />
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Oracle_Corporation_logo.svg/1200px-Oracle_Corporation_logo.svg.png" alt="oracle" />
+                           </div>
+                        </div>
+                     </div>
+                  </article>
+                  <!-- Regional de Salud -->
+                  <article class="portfolio__works__item">
+                     <div class="portfolio__works__item__header">
+                        <img src="https://sns.gob.do/wp-content/uploads/2020/04/logosrs_cibaocentral-1.png" class="portfolio__works__item__header__logo" alt="">
+                        <h3 class="portfolio__works__item__header__title">
+                           SRS VIII
+                           <a href="https://srsviii.gob.do/dependencias/la-vega/" target="_blank" class="portfolio__works__item__header__title__link">
+                           <i class="fa fa-external-link" style="color:#6cef4e;"></i>
+                           </a>
+                        </h3>
+                     </div>
+                     <p class="portfolio__works__item__resume">
+                        Aplicación para el manejo interno de la Regional de Salud de La Vega, contando con módulos administrativos y automatización de procesos.
+                        <strong>Servicio Regional de Salud VIII</strong>
+                     </p>
+                     <div class="portfolio__works__tools">
+                        <div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
+                        <div class="welcome__stack__tools">
+                           <div class="welcome__stack__tool">
+                              <i class="fab fa-vuejs" style="color:#24ae00;"></i>
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <img src="https://buefy.org/static/img/buefy.1d65c18.png" alt="buefy" />
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="" />
+                           </div>
+                        </div>
+                     </div>
+                  </article>
+                  <!-- TemmPool -->
+                  <article class="portfolio__works__item">
+                     <div class="portfolio__works__item__header">
+                        <img src="https://play-lh.googleusercontent.com/qXevVS05roCniIvCu4jnudLZW54zoRzJAk5ISzPrjz7pTBqSc-Ujzs7qn3K4aSrWiQ=s180-rw" class="portfolio__works__item__header__logo" alt="">
+                        <h3 class="portfolio__works__item__header__title">
+                           TemPool
+                           <a href="https://play.google.com/store/apps/details?id=itla.temperamento.dominio.temepramento&hl=es&gl=US" target="_blank" class="portfolio__works__item__header__title__link">
+                           <i class="fa fa-external-link" style="color:#6cef4e;"></i>
+                           </a>
+                        </h3>
+                     </div>
+                     <p class="portfolio__works__item__resume">
+                        La aplicación te permite dar a conocer tus temperamentos por las respuestas que elijas dentro del test. Mediante unos calculos pues la aplicación te mostrara tu temperamento dominante y el temperamento natural.
+                     </p>
+                     <div class="portfolio__works__tools">
+                        <div class="portfolio__works__tools__role">Frontend</div>
+                        <div>
+                           <i class="fab fa-java fa-lg" style="color:#c81729;"></i>
+                           <i class="fab fa-android fa-lg" style="color:#58ff33;"></i>
+                        </div>
+                     </div>
+                  </article>
+                  <!-- TemmPool -->
+                  <article class="portfolio__works__item">
+                     <div class="portfolio__works__item__header">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" class="portfolio__works__item__header__logo" alt="">
+                        <h3 class="portfolio__works__item__header__title">
+                           Test App en React
+                           <a href="https://mmglaparareact.web.app/exersice" target="_blank" class="portfolio__works__item__header__title__link">
+                           <i class="fa fa-external-link" style="color:#6cef4e;"></i>
+                           </a>
+                        </h3>
+                     </div>
+                     <p class="portfolio__works__item__resume">
+                        Aplicacion creada por un curso realizado con la libreria de React
+                     </p>
+                     <div class="portfolio__works__tools">
+                        <div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
+                        <div class="welcome__stack__tools">
+                           <div class="welcome__stack__tool">
+                              <i class="fab fa-node" style="color:#43853d;"></i>
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <i class="fab fa-react" style="color:#42a5db;"></i>
+                           </div>
+                           <div class="welcome__stack__tool">
+                              <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+                           </div>
+                        </div>
+                     </div>
+                  </article>
+                  <!-- Pronto -->
+                  <article class="portfolio__works__item" id="busser">
+                     <div class="portfolio__works__item__header">
+                        <h3 class="portfolio__works__item__header__title">
+                           Vienen mas...
+                        </h3>
+                     </div>
+                  </article>
+               </section>
+            </article>
+            <article class="contact" id="contact">
+               <h2 class="contact__title">¿Necesitas soluciones tecnológicas para ti o tu empresa?</h2>
+               <p class="contact__description">Has llegado al lugar indicado. Actualmente hago parte de un excelente grupo de trabajo, dispuesto a solucionar tu problema usando las mejores técnicas de análisis y desarrollo de software. <br> <br> Puedes contactarme para tomarnos un café y así hablar de tu idea. Podrás encontrar mis redes sociales en el panel principal o si deseas, puedes escribirme a mi correo <a class="welcome__community" href="mailto:20164247@itla.edu.do" target="_blank">20164247@itla.edu.do</a>.</p>
+               <p class="contact__description">Puedes seguirnos en nuestras redes sociales ¡Te esperamos!</p>
+               <div class="contact__social">
+                  <a class="contact__social__link" href="https://www.reddit.com/user/Khahor" target="_blank">
+                  <i class="fab fa-reddit" style="color: #2d2d2d;"></i>
+                  </a>
+                  <a class="contact__social__link" href="https://github.com/Khahory" target="_blank">
+                  <i class="fab fa-github-square" style="color: #2d2d2d;"></i>
+                  </a>
+                  <a class="contact__social__link" href="https://www.instagram.com/kh.ahory/" target="_blank">
+                  <i class="fab fa-instagram" style="color: palevioletred;"></i>
+                  </a>
+                  <a class="contact__social__link" href="https://web.facebook.com/angel.mariaperez.9" target="_blank">
+                  <i class="fab fa-facebook-square" style="color: #4267b2;"></i>
+                  </a>
+                  <a class="contact__social__link" href="https://www.twitch.tv/khahory" target="_blank">
+                  <i class="fab fa-twitch" style="color: #7618b0;"></i>
+                  </a>
+               </div>
+            </article>
+         </section>
+      </div>
+      <script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+      <script src="public/js/main.js"></script>
+   </body>
 </html>
+
